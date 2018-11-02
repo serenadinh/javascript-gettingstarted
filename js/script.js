@@ -133,3 +133,6 @@ numbers.forEach (function(number) {
 	times5.push(number * 5);
 });
 console.log(times5);
+
+//LESSON 7: OBJECT & CONDITIONAL
+//store and access data 
