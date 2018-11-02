@@ -125,3 +125,11 @@ const fruits = ['apple', 'pear', 'cherry'];
 
 const capitalizedFruits = fruits.map( fruit => fruit.toUpperCase() );
 console.log(capitalizedFruits) // [ 'APPLE', 'PEAR', 'CHERRY' ]
+
+// Exercise: Using forEach, iterate over the numbers array and multiply each number by 5, storing these new numbers in the times5 array.
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+let times5 = [];
+numbers.forEach (function(number) {
+	times5.push(number * 5);
+});
+console.log(times5);
