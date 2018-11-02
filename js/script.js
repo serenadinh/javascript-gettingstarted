@@ -85,3 +85,19 @@ for (i = 0; i < fruits.length; i++) {
   console.log(fruits[i])
 }
 // logs apple, pear, cherry
+
+/*
+while
+The while loop repeats a block of JavaScript code until a particular condition is no longer true. 
+For example, in this code, we start with a variable named counter. 
+At the beginning of the loop, the JavaScript interpreter compares the value in the counter variable to 10. 
+If the value inside counter is less than 10, the loop runs.
+*/
+var counter = 1;
+while (counter < 10 ) {
+  console.log( counter );
+  counter = counter + 1;
+}
+/*The loop logs the value inside the counter variable to the console, then increases the value inside counter by 1. 
+After going through the loop 10 times, the counter value is set to 10, the condition is false and the loop is done.
+*/
