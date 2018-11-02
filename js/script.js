@@ -51,3 +51,14 @@ console.log (movies);
 var snacks = ['fries', 'apple', 'chocolate'];
 console.log(snacks[0]);
 console.log(snacks[2]);
+
+//Lesson 5: Loops
+//Loops: repeat an action a number of times 
+//#1 : for each loop
+var movies = ['Avengers', 'Wonder Woman', 'Black Panther', 'Iron Man'];
+movies.forEach(function(movie) {
+	alert (movies);
+}); //call back function 
+
+//shorter way of writing this function by using =>
+movies.forEach(movie => alert (movie)); 
