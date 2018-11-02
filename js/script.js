@@ -34,3 +34,8 @@ function multiply (a,b) {
 	return a * b;
 }
 console.log ( multiply (150, 30) ); 
+//exercise
+function add10 (num) {
+	return num + 10;
+}
+add10(10);
