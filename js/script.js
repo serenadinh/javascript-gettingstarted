@@ -115,3 +115,13 @@ do {
   counter = counter + 1;
   console.log( counter );
 } while (counter < 10);
+
+//map ()
+/*
+The map() array iteration method is used to transform each item in an array into something else, 
+leaving the original array unchanged. For example, this code will capitalize all the words within the fruits array:
+*/
+const fruits = ['apple', 'pear', 'cherry'];
+
+const capitalizedFruits = fruits.map( fruit => fruit.toUpperCase() );
+console.log(capitalizedFruits) // [ 'APPLE', 'PEAR', 'CHERRY' ]
