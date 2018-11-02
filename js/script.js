@@ -62,3 +62,9 @@ movies.forEach(function(movie) {
 
 //shorter way of writing this function by using =>
 movies.forEach(movie => alert (movie)); 
+
+//for of loop
+for (var movie of movies) {
+	console.log (movie);//provide statement to be carried out 
+}
+//explaination: for every movie of the movie array, log it to the console
