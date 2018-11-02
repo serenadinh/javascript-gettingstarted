@@ -43,4 +43,11 @@ add10(10);
 //Lesson 4: Array 
 var movies = ['Avengers', 'Wonder Woman', 'Black Panther', 'Iron Man'];
 //to access a single value in the array, we use 'index value', first item is 0. 
+movies.push('Lady Bird'); // adding one more to the array
+movies.pop (); // removing the last item in the array
 console.log (movies [0]); //to call out an item in the array: console.log + array name + number of the item
+console.log (movies);
+//Exercise 
+var snacks = ['fries', 'apple', 'chocolate'];
+console.log(snacks[0]);
+console.log(snacks[2]);
