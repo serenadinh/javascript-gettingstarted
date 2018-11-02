@@ -19,3 +19,18 @@ function sayGreeting (greeting) {
 	alert (greeting + "," + response + "!");
 }
 sayGreeting("Good morning"); // passing information into a function is also known as passing an argument to a function 
+
+//Lesson 3: 
+//Pass function, after it's done running, can also a return a function. 
+//Function can accepts multiple parameters
+//adding 
+function add(a,b) {
+	return a + b; //return value from a function, using "return" keyword
+}
+console.log( add(20, 30) );
+console.log( add(120, 310) );
+//multiply
+function multiply (a,b) {
+	return a * b;
+}
+console.log ( multiply (150, 30) ); 
