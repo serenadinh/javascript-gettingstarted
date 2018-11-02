@@ -1,4 +1,4 @@
-// Lesson 1
+// Lesson 1: Declaring variables
 var myName = "Serena";
 var myAge = 25;
 var message = myName + ' is' + myAge;
@@ -20,7 +20,7 @@ function sayGreeting (greeting) {
 }
 sayGreeting("Good morning"); // passing information into a function is also known as passing an argument to a function 
 
-//Lesson 3: 
+//Lesson 3: Function
 //Pass function, after it's done running, can also a return a function. 
 //Function can accepts multiple parameters
 //adding 
@@ -39,3 +39,7 @@ function add10 (num) {
 	return num + 10;
 }
 add10(10);
+
+//Lesson 4: Array 
+var movies = ['Avengers', 'Wonder Woman', 'Black Panther', 'Iron Man'];
+//to access a single value in the array, we use 'index value', first item is 0
