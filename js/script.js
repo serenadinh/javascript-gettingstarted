@@ -40,7 +40,7 @@ function add10 (num) {
 }
 add10(10);
 
-//Lesson 4: Array 
+//LESSON 4: ARRAY
 var movies = ['Avengers', 'Wonder Woman', 'Black Panther', 'Iron Man'];
 //to access a single value in the array, we use 'index value', first item is 0. 
 movies.push('Lady Bird'); // adding one more to the array
@@ -52,7 +52,7 @@ var snacks = ['fries', 'apple', 'chocolate'];
 console.log(snacks[0]);
 console.log(snacks[2]);
 
-//Lesson 5: Loops
+//LESSON 5: LOOPS
 //Loops: repeat an action a number of times 
 //#1 : for each loop
 var movies = ['Avengers', 'Wonder Woman', 'Black Panther', 'Iron Man'];
@@ -68,3 +68,20 @@ for (var movie of movies) {
 	console.log (movie);//provide statement to be carried out 
 }
 //explaination: for every movie of the movie array, log it to the console
+
+//LESSON 6: Common Loops and Iteration Methods
+/*For loops are frequently used for actions that need to run a particular number of times.
+The for loop consists of three optional expressions, enclosed in parentheses and separated by semicolons, 
+followed by the code that should run each time the condition remains true.
+*/
+for ( let counter = 1; counter < 10; counter++) {
+  console.log( counter );
+} 
+// logs 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+const fruits = ['apple', 'pear', 'cherry'];
+
+for (i = 0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
+// logs apple, pear, cherry
