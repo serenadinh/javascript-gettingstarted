@@ -101,3 +101,17 @@ while (counter < 10 ) {
 /*The loop logs the value inside the counter variable to the console, then increases the value inside counter by 1. 
 After going through the loop 10 times, the counter value is set to 10, the condition is false and the loop is done.
 */
+
+//do...while
+/*
+The do...while loop is closely related to the while loop. do...while creates a loop that executes a statement until the test condition 
+evaluates to false.
+
+The main difference between while and do...while is that do...while doesn't check the condition until the code block has run once. 
+Then, if the condition is true, it runs again...and again...until the condition is no longer true.
+*/
+var counter = 1;
+do {
+  counter = counter + 1;
+  console.log( counter );
+} while (counter < 10);
