@@ -142,4 +142,12 @@ var movie = {
 };
 alert (movie.title = 'Avengers');
 movie.status = 'unavailable';
-console.log(movie); 
+console.log(movie);
+
+// Exercise
+var player = {
+  name: "Serena",
+  color: "Blue",
+  score: 0
+} 
+player.score = 2;
