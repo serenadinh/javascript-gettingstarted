@@ -136,3 +136,10 @@ console.log(times5);
 
 //LESSON 7: OBJECT & CONDITIONAL
 //store and access data 
+var movie = {
+	title: 'Wonder Woman',
+	time: '2pm'
+};
+alert (movie.title = 'Avengers');
+movie.status = 'unavailable';
+console.log(movie); 
