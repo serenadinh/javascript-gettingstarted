@@ -159,6 +159,8 @@ var movie = {
 }
 for (var movie of movies) {
 	if (movie.status === 'available') {
-		console.log("The movie " + movie.title + " plays at " + movie.time);
+		console.log(`The movie ${movie.title} plays at ${movie.time}`);
+	} else {
+		console.log(`Sorry, the movie ${movie.title} is sold out`);
 	}
 }
