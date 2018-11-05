@@ -153,7 +153,8 @@ var player = {
 player.score = 2;
 
 // Conditional Statement 
-var movie = {
+var movie = [
+{
 	title: "Avengers",
 	status: "available"
 },
@@ -164,7 +165,7 @@ var movie = {
 {
 	title: "Lady Bird",
 	status: "available"
-}
+}];
 for (var movie of movies) {
 	if (movie.status === 'available') {
 		console.log(`The movie ${movie.title} plays at ${movie.time}`);
@@ -172,3 +173,4 @@ for (var movie of movies) {
 		console.log(`Sorry, the movie ${movie.title} is sold out`);
 	}
 }
+//completed Javascript quickstart 
