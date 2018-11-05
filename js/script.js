@@ -155,7 +155,15 @@ player.score = 2;
 // Conditional Statement 
 var movie = {
 	title: "Avengers",
-	time: "2pm"
+	status: "available"
+},
+{
+	title: "Black Panther",
+	status: "unavailable"
+},
+{
+	title: "Lady Bird",
+	status: "available"
 }
 for (var movie of movies) {
 	if (movie.status === 'available') {
