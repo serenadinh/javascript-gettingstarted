@@ -151,3 +151,14 @@ var player = {
   score: 0
 } 
 player.score = 2;
+
+// Conditional Statement 
+var movie = {
+	title: "Avengers",
+	time: "2pm"
+}
+for (var movie of movies) {
+	if (movie.status === 'available') {
+		console.log("The movie " + movie.title + " plays at " + movie.time);
+	}
+}
